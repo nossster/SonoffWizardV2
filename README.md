@@ -27,7 +27,7 @@ manual installs for the end-user.
 
 | Main window | Scan complete |
 |-------------|---------------|
-| ![](docs/screenshot-main.png) | ![](docs/screenshot-scan.png) |
+| ![](docs/1.png) | ![](docs/screenshot-scan.png) |
 
 *(replace with real shots if you wish)*
 
