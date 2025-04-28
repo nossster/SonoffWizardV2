@@ -29,8 +29,6 @@ manual installs for the end-user.
 |-------------|---------------|
 | ![](docs/2.jpg) | ![](docs/1.jpg) |
 
-*(replace with real shots if you wish)*
-
 ---
 
 ## Build & Run
