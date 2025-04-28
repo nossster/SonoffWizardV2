@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- basic -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- metadata -->
+  <PropertyGroup>
+    <AssemblyTitle>Sonoff Wizard</AssemblyTitle>
+    <Description>Utility to generate PowerOn/PowerOff BAT for Sonoff DIY</Description>
+    <Company>Gizmo Lab</Company>
+    <Product>Sonoff Wizard</Product>
+    <Copyright>Copyright © Gizmo Lab 2025</Copyright>
+
+    <Version>2.2.3</Version>
+    <FileVersion>2.2.3.0</FileVersion>
+    <AssemblyVersion>2.2.3.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <!-- icon -->
+  <ItemGroup>
+    <None Include="Resources\my_icon.ico" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\my_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <!-- single-file publish -->
+  <PropertyGroup>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <!-- NuGet -->
+  <ItemGroup>
+    <PackageReference Include="Zeroconf" Version="3.5.11" />
+    <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+  </ItemGroup>
+
+  <!-- исключаем исходники библиотеки, но подключаем сборку -->
+  <ItemGroup>
+    <Compile Remove="Sonoff.Core\**\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Sonoff.Core\Sonoff.Core.csproj" />
+  </ItemGroup>
+
+</Project>
