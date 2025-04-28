@@ -258,7 +258,7 @@ Delete – remove selected
 Save – write JSON
 Scan – discover Sonoff DIY
 Generate BAT – create On/Off scripts
-Endpoint – channel number (usually 1)",
+Endpoint – number of endpoint in gizmo manager",
             "Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
         #endregion
 
@@ -304,7 +304,7 @@ Endpoint – channel number (usually 1)",
     public class DeviceEntry
     {
         public string Name     { get; set; } = "";
-        public string Endpoint { get; set; } = "1";
+        public string Endpoint { get; set; } = "0";
         public string Host     { get; set; } = "";
         public string DeviceID { get; set; } = "";
         public int    Port     { get; set; } = 8081;

@@ -17,9 +17,9 @@
     <Product>Sonoff Wizard</Product>
     <Copyright>Copyright © Gizmo Lab 2025</Copyright>
 
-    <Version>2.2.3</Version>
-    <FileVersion>2.2.3.0</FileVersion>
-    <AssemblyVersion>2.2.3.0</AssemblyVersion>
+    <Version>2.2.2.4</Version>
+    <FileVersion>2.2.2.4</FileVersion>
+    <AssemblyVersion>2.2.2.4</AssemblyVersion>
   </PropertyGroup>
 
   <!-- icon -->
