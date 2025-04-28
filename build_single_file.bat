@@ -17,3 +17,5 @@ dotnet publish SonoffWizardV2.csproj ^
 echo ======================================================
 echo ready! check it: %PUBLISH_DIR%\SonoffWizardV2.exe
 pause
+
+
