@@ -27,7 +27,7 @@ manual installs for the end-user.
 
 | Main window | Scan complete |
 |-------------|---------------|
-| ![](docs/1.png) | ![](docs/1.jpg) |
+| ![](docs/2.jpg) | ![](docs/1.jpg) |
 
 *(replace with real shots if you wish)*
 
